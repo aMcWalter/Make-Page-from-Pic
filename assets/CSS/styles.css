@@ -1,0 +1,67 @@
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+      
+}
+.p1 {
+    width: 75%; 
+    word-wrap: break-word
+}
+/* Create two equal columns that floats next to each other */
+.some-page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 20px;
+    margin: 5% 0;
+  }
+  
+  .left-column {
+    
+    color: black;
+        
+  }
+
+  .right-column {
+    color: black;
+    column-gap: 40px;
+     
+  }
+
+.custom-list li {
+    position: relative;
+    padding-left: 20px;
+}
+ul li:before{ content: '👻'; margin-left: -20px; margin-right: 10px; } 
+
+}
+/* ul li {
+    list-style-Type: none;
+    padding: 0 0 4px 23px;
+    background: url(https://www.computerhope.com/cdn/arrow.png) no-repeat left center; */
+    /* https://www.computerhope.com/issues/ch001311.htm */
+}
+
+  /* https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01 */
+
+  
